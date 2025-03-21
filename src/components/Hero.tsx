@@ -37,7 +37,7 @@ export const Hero = () => {
           >
             I'm a freelance developer specializing in creating stunning websites and comprehensive branding solutions that help businesses stand out.
           </motion.p>
-
+          <h3>Currently Website Under Development, so few features may not work</h3>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
