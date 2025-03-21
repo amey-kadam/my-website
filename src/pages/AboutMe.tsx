@@ -25,7 +25,10 @@ const AboutMe = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-xl text-gray-600 dark:text-gray-300"
             >
-            Passionate about building sleek, high-performing websites & software solutions.
+            Passionate about building sleek, high-performing websites & software solutions. 
+          
+           <h3>E-mail: amey.p.kadam@gmail.com      </h3>
+            <h3>contact: +91 8329684050</h3> 
             </motion.p>
           </div>
 
