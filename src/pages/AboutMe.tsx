@@ -118,29 +118,33 @@ const AboutMe = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {
-                  title: "Website for a Dubai based company",
-                  description: "A modern website for a General Trading company built with React and Python",
-                  tech: ["Web Development", "Logo Design", "Business Cards", "Posters"],
+                  title: "Roodan General Trading",
+                  description: "A modern website for a dubai based General Trading company built with React and Python",
+                  tech: ["Website", "Logo Design", "Business Cards", "Posters"],
                   image: "photo-1486312338219-ce68d2c6f44d",
                 },
+
                 {
                   title: "AI Resume Editor",
                   description: "Developed a AI resume editor where you can imporve your resume and get feedback on it",
                   image: "photo-1488590528505-98d2b5aba04b",
-                  tech: ["Web Development", "Logo Design"],
+                  tech: ["Website", "Logo Design"],
                 },
-                // {
-                //   title: "Data Analytics Dashboard",
-                //   description: "Interactive dashboard for visualizing business metrics with custom filtering capabilities.",
-                //   tech: ["React", "D3.js", "Python", "Flask"],
-                //   image: "dashboard"
-                // },
-                // {
-                //   title: "Task Management App",
-                //   description: "Modern task manager with team collaboration features and progress tracking.",
-                //   tech: ["React", "Firebase", "Tailwind CSS"],
-                //   image: "taskapp"
-                // }
+
+                {
+                  title: "ShreeGreen ",
+                  description: "Complete Website design and development for ShreeGreen a company that manufactures AAC blocks",
+                  tech: ["Website"],
+                  image: "taskapp"
+                },
+
+                {
+                  title: "Sachi Traders",
+                  description: "A simple yet minimal website made with React and Typescript for Sachi Traders a Indian export company",
+                  tech: ["Logo Design", "Website"],
+                  image: "dashboard"
+                }
+               
               ].map((project, i) => (
                 <motion.div 
                   key={i}
