@@ -124,7 +124,7 @@ const AboutMe = () => {
                   description: "A modern website for a dubai based General Trading company built with React and Python",
                   tech: ["Website", "Logo Design", "Business Cards", "Posters"],
                   image: "photo-1486312338219-ce68d2c6f44d",
-                  link: "https://roodan-trading.com"
+                  link: "https://roodan-project.vercel.app/"
                 },
 
                 {
@@ -132,7 +132,7 @@ const AboutMe = () => {
                   description: "Developed a AI resume editor where you can imporve your resume and get feedback on it",
                   image: "photo-1488590528505-98d2b5aba04b",
                   tech: ["Website", "Logo Design"],
-                  link: "https://ai-resume-editor.com"
+                  link: "https://cvmaster.in"
                 },
 
                 {
@@ -140,7 +140,7 @@ const AboutMe = () => {
                   description: "Complete Website design and development for ShreeGreen a company that manufactures AAC blocks",
                   tech: ["Website"],
                   image: "taskapp",
-                  link: "https://shreegreen.com"
+                  link: "https://shree-green-website.vercel.app/"
                 },
 
                 {
@@ -148,7 +148,7 @@ const AboutMe = () => {
                   description: "A simple yet minimal website made with React and Typescript for Sachi Traders a Indian export company",
                   tech: ["Logo Design", "Website"],
                   image: "dashboard",
-                  link: "https://sachitraders.in"
+                  link: "https://sachitraders.com"
                 }
                
               ].map((project, i) => (
