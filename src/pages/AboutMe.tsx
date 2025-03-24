@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Code, FileText, Briefcase, Coffee, Award, Book, Database, Globe, Laptop } from "lucide-react";
-import Link from "next/link";
+// Remove the Next.js Link import
 
 const AboutMe = () => {
   return (
@@ -113,6 +113,7 @@ const AboutMe = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
             className="max-w-4xl mx-auto mb-16"
+            id="my-works"
           >
             <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">My Works</h2>
             
@@ -123,15 +124,15 @@ const AboutMe = () => {
                   description: "A modern website for a dubai based General Trading company built with React and Python",
                   tech: ["Website", "Logo Design", "Business Cards", "Posters"],
                   image: "photo-1486312338219-ce68d2c6f44d",
-                  link: "https://roodan-project.vercel.app/"
+                  link: "https://roodan-trading.com"
                 },
 
                 {
-                  title: "CvMaster",
+                  title: "AI Resume Editor",
                   description: "Developed a AI resume editor where you can imporve your resume and get feedback on it",
                   image: "photo-1488590528505-98d2b5aba04b",
                   tech: ["Website", "Logo Design"],
-                  link: "https://cvmaster.in"
+                  link: "https://ai-resume-editor.com"
                 },
 
                 {
@@ -139,7 +140,7 @@ const AboutMe = () => {
                   description: "Complete Website design and development for ShreeGreen a company that manufactures AAC blocks",
                   tech: ["Website"],
                   image: "taskapp",
-                  link: "https://shree-green-website.vercel.app/"
+                  link: "https://shreegreen.com"
                 },
 
                 {
@@ -147,7 +148,7 @@ const AboutMe = () => {
                   description: "A simple yet minimal website made with React and Typescript for Sachi Traders a Indian export company",
                   tech: ["Logo Design", "Website"],
                   image: "dashboard",
-                  link: "https://sachitraders.com"
+                  link: "https://sachitraders.in"
                 }
                
               ].map((project, i) => (
