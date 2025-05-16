@@ -124,7 +124,7 @@ const AboutMe = () => {
                   description: "A modern website for a dubai based General Trading company built with React and Python",
                   tech: ["Website", "Logo Design", "Business Cards", "Posters"],
                   image: "photo-1486312338219-ce68d2c6f44d",
-                  link: "https://roodan-project.vercel.app/"
+                  link: "https://roodan.ae/"
                 },
 
                 {
@@ -140,7 +140,7 @@ const AboutMe = () => {
                   description: "Complete Website design and development for ShreeGreen a company that manufactures AAC blocks",
                   tech: ["Website"],
                   image: "taskapp",
-                  link: "https://shree-green-website.vercel.app/"
+                  link: "https://shreegreenaac.com/"
                 },
 
                 {
